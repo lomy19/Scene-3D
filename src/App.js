@@ -19,10 +19,10 @@ export default function App() {
   return (
     // Je mets mes models dans mon Canvas
     <Canvas style={{ width: "100vw", height: "100vh", display: "block" }} camera={{ position: [20, 20, 50], fov: 50 }}>
-    {<EffectComposer>
+    {/* {<EffectComposer>
          <ChromaticAberration blendFunction={BlendFunction.NORMAL} offset={[0.002, 0.0002]}/>
          <Pixelation granularity={2}/>
-      </EffectComposer>}
+      </EffectComposer>} */}
 
       <ambientLight />
       <directionalLight position={[10, 10, 5]} intensity={0.7} />
